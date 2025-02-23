@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "moduleResolution": "Node",
+    "lib": ["ES2021", "DOM"],
+    "noEmit": true,
+    "skipLibCheck": true,
+  }
+}

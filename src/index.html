@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="content-section">
+            <h1>Currency Converter</h1>
+            <div class="input">
+                <p>Enter amount</p>
+                <input type="number" placeholder="100" id="amount" required>
+                <div class="select">
+                    <select name="curr-select" id="first-curr">
+                    </select>
+                    <p>TO</p>
+                    <select name="curr-select" id="second-curr">
+                    </select>
+                </div>
+
+                <button type="button" id="convertor-button">Convert</button>
+            </div>
+            <div class="result">
+                <p class="hidden" id="result-clear">100 USD = 8,407.52 INR</p>
+                <p class="hidden" id="result-error">An error occurred, please try again later</p>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
